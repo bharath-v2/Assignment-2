@@ -1,0 +1,43 @@
+@import 'variable';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $nunito;
+    font-size: 16px;
+    color: black;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+
+    &:hover {
+        color: $navy-blue;
+    }
+}
+h1{   
+    font-size: 33px;
+}
+h2{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.ui {
+    margin: 0 auto;
+}
+.ui1 {
+    justify-content: center;
+    gap: 10px;
+    margin: 50px 0;
+    display: flex;
+    img{
+        filter: brightness(0) invert(1);
+     }
+}

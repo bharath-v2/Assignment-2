@@ -1,0 +1,49 @@
+/* Media Query Break-points */
+/* Color */
+/* Font Family */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: black;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+a:hover {
+  color: #10c9c3;
+}
+
+h1 {
+  font-size: 33px;
+}
+
+h2 {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.ui {
+  margin: 0 auto;
+}
+
+.ui1 {
+  justify-content: center;
+  gap: 10px;
+  margin: 50px 0;
+  display: flex;
+}
+.ui1 img {
+  filter: brightness(0) invert(1);
+}
+
+/*# sourceMappingURL=global.css.map */
