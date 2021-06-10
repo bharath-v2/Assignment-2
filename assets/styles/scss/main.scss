@@ -113,6 +113,7 @@ header {
 .banner-bg {
   background: url(../../images/bg.jpg) no-repeat top;
   height: 100vh;
+  height: 77vh;
   background-size: contain;
   @media #{$sm-down} {
     height: 600px;
